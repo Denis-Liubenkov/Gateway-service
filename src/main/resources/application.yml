@@ -17,3 +17,8 @@ spring:
     import: 'optional:configserver:'
   main:
     allow-bean-definition-overriding: true
+management:
+  endpoints.web.exposure.include: httpexchanges
+  httpexchanges:
+    recording:
+      enabled: true

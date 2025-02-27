@@ -27,9 +27,6 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-consul-discovery:4.2.0")
     implementation("org.springframework.cloud:spring-cloud-starter-openfeign:4.2.0")
     implementation("org.springframework.cloud:spring-cloud-starter-config:4.2.0")
-    implementation ("io.jsonwebtoken:jjwt-api:0.12.6")
-    runtimeOnly ("io.jsonwebtoken:jjwt-impl:0.12.6")
-    runtimeOnly ("io.jsonwebtoken:jjwt-jackson:0.12.6")
 }
 
 dependencyManagement {
