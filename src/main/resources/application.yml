@@ -5,8 +5,8 @@ spring:
     name: Gateway-service
   cloud:
     consul:
-      host: localhost
-      port: 8500
+      host: ${CONSUL_HOST}
+      port: ${CONSUL_PORT:8500}
       discovery:
         enabled: true
     config:
